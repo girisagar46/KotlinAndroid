@@ -22,7 +22,7 @@ android {
     }
 }
 
-ext{
+ext {
     android_support_version='27.1.1'
 }
 
