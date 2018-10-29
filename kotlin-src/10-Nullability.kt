@@ -30,5 +30,5 @@ fun main(args: Array<String>) {
 
     // !! this introduces null pointer exception in yje code
 
-//    print(nullanleName!!.length)
+//    print(nullanleName!!.length) // Use this only and if only you know that the value exists and is never null
 }
