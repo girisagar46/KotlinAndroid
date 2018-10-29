@@ -39,6 +39,7 @@ open class Vehicle(val make: String, val model: String) {
 class MyCar(make: String, model: String, val color: String) : Vehicle(make, model) {
     override fun accelerate(){
         println("Stealth Mode")
+        super.accelerate() // call the method from parent class
     }
 }
 
